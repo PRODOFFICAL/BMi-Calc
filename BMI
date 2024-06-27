@@ -1,1 +1,42 @@
+// Date started 6/27/2024
+// By Anirudh Paladugula 
 
+// Import Lines
+import java.util.*;
+
+// Start of Code 
+
+Public Class Bmi{ 
+public static void main(String [] args);
+
+// first Quesrion
+System.out.print("Please imput your weight in Pounds: );
+int weight = input.nextInt();
+// Second question
+System.out.print("Please input your height in inches ( whole numbers only): ");
+int height = input.nextint();
+// calculations 
+
+double kweight = (double)weight*0.454;
+double kheight = (double)height*0.0254;
+
+double bmi = kweight / (kheight * kheight);
+
+system.out.println("");
+
+int finalbmi = (int)bmi;
+
+// final print out 
+
+System.out.println("Your Bmi is: " + finalbmi);
+
+
+
+
+
+
+
+
+
+
+}
